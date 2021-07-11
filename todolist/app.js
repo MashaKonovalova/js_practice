@@ -3,7 +3,7 @@ let usetInput = document.getElementById('userInput');
 let ul = document.querySelector('ul');
 
 function inputLength() {
-    return userInput.value.length > 0 
+    return userInput.value.length>0;
 }
 function createTodo(){
     let li = document.createElement("li");
