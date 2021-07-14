@@ -4,13 +4,13 @@
     "description": "chat on sockets",
     "main": "index.js",
     "scripts": {
-        "test":"echo \"Error: no test specified\" && exit i"
+        "test": "echo \"Error: no test specified\" && exit i"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express":"~4.8.4",
-        "peer":"~0.2.6",
-        "socket.io":"~1.0.6"
+        "express": "~4.8.4",
+        "peer": "~0.2.6",
+        "socket.io": "~1.0.6"
     }
 }

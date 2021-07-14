@@ -16,6 +16,11 @@
   "dependencies": {
     "jquery":"~2.1.1",
     "bootstrap":"~3.2.0",
-    
+    "eventEmmiter":"~4.2.7",
+    "peerjs":"~0.3.14",
+    "react":"~0.12.2"
   },
+  "resolutions": {
+    "react":"~0.12.2"
+  }
 }
