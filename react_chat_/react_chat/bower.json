@@ -2,7 +2,10 @@
   "name": "react_chat",
   "main": "index.js",
   "version": "0.0.0",
-  "license": "MIT",
+  "authors": [
+    "masha konovalova"
+  ],
+  "license": "ISC",
   "ignore": [
     "**/.*",
     "node_modules",

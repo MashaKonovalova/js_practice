@@ -1,0 +1,13 @@
+/** @jsx React.DOM */
+$(function(){
+    $('#connect-btn').on('click', () => {
+        initChat($('#username-input').val());
+        console.log(`Chat connection initiated with username: 
+        ${$('#username-input').val()}`)
+    });
+    function initChat(username){
+        React.renderComponent(
+            <ChatBox chatProxy ={new ChatEmitter()} username = {username} ></ChatBox>
+        )
+    }
+});
