@@ -1,6 +1,5 @@
 'use strict';
-
-const Actions = require("../src/Action");
+//const Actions = require("../src/Action.js");
 function ChatEmitter() {
   EventEmitter.call(this);
   this._peers = {};
@@ -82,4 +81,4 @@ ChatEmitter.prototype.connect = function(username){
 
 ChatEmitter.prototype._disconnectFrom = function(username){
   delete this._peers[username];
-}
+};
