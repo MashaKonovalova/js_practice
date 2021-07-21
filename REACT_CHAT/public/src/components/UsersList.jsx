@@ -7,7 +7,9 @@ var UsersList = React.createClass({
             return <div className='chat-user'>{user}</div>
         });
         return (
-            <div className = 'col-xs-3 col-md-4 col-lg-4'></div>
+            <div className = 'col-xs-3 col-md-4 col-lg-4'>
+                {users}
+            </div>
         )
     }
 })

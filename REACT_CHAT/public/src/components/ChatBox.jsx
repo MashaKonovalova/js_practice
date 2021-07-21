@@ -38,7 +38,7 @@ var ChatBox = React.createClass ({
         addMessage: function(message) {
             if (message) {
                 message.date = new Date();
-                //this.refs.messagesList.addMessage(message);
+                this.refs.messagesList.addMessage(message);
             }
         },
         render: function(){

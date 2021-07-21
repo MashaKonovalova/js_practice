@@ -1,5 +1,5 @@
 'use strict';
-//const Actions = require("../src/Action.js");
+
 function ChatEmitter() {
   EventEmitter.call(this);
   this._peers = {};
@@ -49,7 +49,8 @@ ChatEmitter.prototype.connect = function(username){
       self.emit(Actions.USER_DISCONNECTED,userId);
       console.log('User disconnected', userId);
     });
-    this.peer = new this.peer(username,{
+    console.log('Connection with username',username)
+    this.peer = new Peer(username,{
       host: location.hostname,
       port: 9000,
       path:'chat'

@@ -1,9 +1,64 @@
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue",
+    Geneva, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee",
+    "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian",
+    "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao",
+    "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai",
+    sans-serif, arial, Tahoma, verdana;
+  padding: none;
+  margin: none;
+}
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue",
+    Geneva, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee",
+    "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian",
+    "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao",
+    "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai",
+    sans-serif, arial, Tahoma, verdana;
+  color: #5583b9;
+  font-size: 40px;
+  line-height: 1.42857143;
+  font-size: 40px;
+}
+p {
+  color: #5583b9;
+  font-size: 40px;
+}
+#container {
+  max-width: 50%;
+  margin: auto;
+  height: 100%;
+  padding: 40px;
+}
+.chat-messages {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  background-color: aliceblue;
+}
+.chat-message {
+  min-height: 22px;
+  padding-left: 16px;
+  margin: 6px;
+}
+.chat-messages-empty {
+  padding: 20px;
+  color: #76808b;
+  font-size: 20px;
+}
+.chat-message-time,
+.chat-message-author {
+  font-size: 15px;
+  color: #2a5885;
+  float: left;
 }
 
-#container {
-    width: 100%;
-    margin: auto;
-    height: 100%;
+.chat-header {
+  color: #5583b9;
+  font-size: 40px;
+}
+.username-input {
+  color: #181b3d;
 }

@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 var MessageInput = React.createClass({
-    mixin: [React.addons.LinkedStateMixin],
+    mixins: [React.addons.LinkedStateMixin],
     getInitialState: function(){
         return {
             message:''
@@ -21,7 +21,8 @@ var MessageInput = React.createClass({
                 className = "form-control" type="text"
                 placeholder="Enter something..."
                 valueLink={this.linkState("message")}
-                onKeyUp={this.keyHandler}/>
+                onKeyUp={this.keyHandler}
+                />
         )
     }
 })
